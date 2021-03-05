@@ -2,6 +2,7 @@
 
 - 01: Projects setup and getting started with Main UI
 - 02: Creating Feed user Interface Programatically
+- 03: User Authentication UI & ViewModels
 
 ## release
 
