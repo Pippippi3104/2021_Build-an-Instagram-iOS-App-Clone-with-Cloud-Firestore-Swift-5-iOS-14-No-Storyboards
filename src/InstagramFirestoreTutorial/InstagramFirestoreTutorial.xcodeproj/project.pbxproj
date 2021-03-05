@@ -23,6 +23,7 @@
 		355E540625EA983B00CC3D64 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E540525EA983B00CC3D64 /* ProfileController.swift */; };
 		359C1F9B25F21CAE00340C68 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1F9A25F21CAE00340C68 /* LoginController.swift */; };
 		359C1F9F25F21CC500340C68 /* RegistrationCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1F9E25F21CC500340C68 /* RegistrationCOntroller.swift */; };
+		359C1FA225F23C3400340C68 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FA125F23C3400340C68 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		355E540525EA983B00CC3D64 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		359C1F9A25F21CAE00340C68 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		359C1F9E25F21CC500340C68 /* RegistrationCOntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCOntroller.swift; sourceTree = "<group>"; };
+		359C1FA125F23C3400340C68 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				350AE77D25EBDD14005741C6 /* FeedCell.swift */,
+				359C1FA125F23C3400340C68 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359C1FA225F23C3400340C68 /* CustomTextField.swift in Sources */,
 				355E53DF25EA935600CC3D64 /* ViewController.swift in Sources */,
 				359C1F9B25F21CAE00340C68 /* LoginController.swift in Sources */,
 				350AE77E25EBDD14005741C6 /* FeedCell.swift in Sources */,
