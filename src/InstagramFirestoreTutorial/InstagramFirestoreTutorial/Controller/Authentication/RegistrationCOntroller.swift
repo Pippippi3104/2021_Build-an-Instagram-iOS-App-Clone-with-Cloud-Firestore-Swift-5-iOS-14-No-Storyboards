@@ -74,7 +74,14 @@ class RegistrationController: UIViewController {
         guard let profileImage = self.profileImage else { return }
         
         let credentials = AuthCredentials(email: email, password: password, fullname: fullname, username: username, profileImage: profileImage)
-        AuthService.registerUser(withCredential: credentials)
+        
+        AuthService.registerUser(withCredential: credentials) {error in
+            if let error = error {
+                print("DEBUG: Failed to register user \(error.localizedDescription)")
+                return
+            }
+            print("DEBUG: Successfully registered user with firestore ...")
+        }
     }
     
     @objc func handleShowLogin() {
