@@ -3,6 +3,7 @@
 - 01: Projects setup and getting started with Main UI
 - 02: Creating Feed user Interface Programatically
 - 03: User Authentication UI & ViewModels
+- 04: Setting Up Firebase and User Authentication
 
 ## release
 
@@ -12,3 +13,5 @@
   - section02
 - v0.3.0
   - section03
+- v0.4.0
+  - section04
