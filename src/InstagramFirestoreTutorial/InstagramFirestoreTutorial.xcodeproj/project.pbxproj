@@ -28,6 +28,8 @@
 		359C1FB125F6784300340C68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 359C1FB025F6784300340C68 /* GoogleService-Info.plist */; };
 		359C1FD625F8DF4200340C68 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FD525F8DF4200340C68 /* ImageUploader.swift */; };
 		359C1FD925F8DF6300340C68 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FD825F8DF6300340C68 /* AuthService.swift */; };
+		359C1FE125FC614E00340C68 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FE025FC614E00340C68 /* ProfileCell.swift */; };
+		359C1FE425FC616B00340C68 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FE325FC616B00340C68 /* ProfileHeader.swift */; };
 		ADFC926D70B2EF400C89FDD4 /* Pods_InstagramFirestoreTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215DA53581959BD936163828 /* Pods_InstagramFirestoreTutorial.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		359C1FB025F6784300340C68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		359C1FD525F8DF4200340C68 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		359C1FD825F8DF6300340C68 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		359C1FE025FC614E00340C68 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		359C1FE325FC616B00340C68 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		5B1C8D95BCCFFCA9E82D28B7 /* Pods-InstagramFirestoreTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirestoreTutorial.debug.xcconfig"; path = "Target Support Files/Pods-InstagramFirestoreTutorial/Pods-InstagramFirestoreTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		C5EE61845C7C84A294EE87B9 /* Pods-InstagramFirestoreTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirestoreTutorial.release.xcconfig"; path = "Target Support Files/Pods-InstagramFirestoreTutorial/Pods-InstagramFirestoreTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +134,7 @@
 		355E53F025EA93AE00CC3D64 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				359C1FE625FC617500340C68 /* Profile */,
 				350AE77D25EBDD14005741C6 /* FeedCell.swift */,
 				359C1FA125F23C3400340C68 /* CustomTextField.swift */,
 			);
@@ -182,6 +187,15 @@
 				359C1F9E25F21CC500340C68 /* RegistrationCOntroller.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		359C1FE625FC617500340C68 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				359C1FE025FC614E00340C68 /* ProfileCell.swift */,
+				359C1FE325FC616B00340C68 /* ProfileHeader.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		91D41EA6D6A1367856132640 /* Frameworks */ = {
@@ -308,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				359C1FA225F23C3400340C68 /* CustomTextField.swift in Sources */,
+				359C1FE425FC616B00340C68 /* ProfileHeader.swift in Sources */,
 				355E53DF25EA935600CC3D64 /* ViewController.swift in Sources */,
 				359C1F9B25F21CAE00340C68 /* LoginController.swift in Sources */,
 				350AE77E25EBDD14005741C6 /* FeedCell.swift in Sources */,
@@ -322,6 +337,7 @@
 				350AE78125EBDFDB005741C6 /* Extensions.swift in Sources */,
 				359C1FD625F8DF4200340C68 /* ImageUploader.swift in Sources */,
 				359C1FD925F8DF6300340C68 /* AuthService.swift in Sources */,
+				359C1FE125FC614E00340C68 /* ProfileCell.swift in Sources */,
 				355E53DD25EA935600CC3D64 /* SceneDelegate.swift in Sources */,
 				359C1F9F25F21CC500340C68 /* RegistrationCOntroller.swift in Sources */,
 			);
