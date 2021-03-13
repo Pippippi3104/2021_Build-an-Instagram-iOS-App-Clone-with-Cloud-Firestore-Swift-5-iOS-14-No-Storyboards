@@ -16,3 +16,5 @@
   - section03
 - v0.4.0
   - section04
+- v0.5.0
+  - section05
