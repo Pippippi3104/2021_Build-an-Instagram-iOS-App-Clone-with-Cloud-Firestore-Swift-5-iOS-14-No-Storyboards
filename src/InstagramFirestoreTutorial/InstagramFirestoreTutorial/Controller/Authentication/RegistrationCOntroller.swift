@@ -80,7 +80,7 @@ class RegistrationController: UIViewController {
                 print("DEBUG: Failed to register user \(error.localizedDescription)")
                 return
             }
-            print("DEBUG: Successfully registered user with firestore ...")
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
