@@ -27,6 +27,7 @@ class ProfileHeader: UICollectionReusableView {
     private let nameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 14)
+        label.textColor = .black
         return label
     }()
     
