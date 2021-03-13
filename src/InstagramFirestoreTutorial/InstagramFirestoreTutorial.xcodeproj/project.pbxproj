@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,6 +26,8 @@
 		359C1FA225F23C3400340C68 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FA125F23C3400340C68 /* CustomTextField.swift */; };
 		359C1FA925F4F17300340C68 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FA825F4F17300340C68 /* AuthenticationViewModel.swift */; };
 		359C1FB125F6784300340C68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 359C1FB025F6784300340C68 /* GoogleService-Info.plist */; };
+		359C1FD625F8DF4200340C68 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FD525F8DF4200340C68 /* ImageUploader.swift */; };
+		359C1FD925F8DF6300340C68 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FD825F8DF6300340C68 /* AuthService.swift */; };
 		ADFC926D70B2EF400C89FDD4 /* Pods_InstagramFirestoreTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215DA53581959BD936163828 /* Pods_InstagramFirestoreTutorial.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		359C1FA125F23C3400340C68 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		359C1FA825F4F17300340C68 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		359C1FB025F6784300340C68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		359C1FD525F8DF4200340C68 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		359C1FD825F8DF6300340C68 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		5B1C8D95BCCFFCA9E82D28B7 /* Pods-InstagramFirestoreTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirestoreTutorial.debug.xcconfig"; path = "Target Support Files/Pods-InstagramFirestoreTutorial/Pods-InstagramFirestoreTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		C5EE61845C7C84A294EE87B9 /* Pods-InstagramFirestoreTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirestoreTutorial.release.xcconfig"; path = "Target Support Files/Pods-InstagramFirestoreTutorial/Pods-InstagramFirestoreTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +78,6 @@
 				5B1C8D95BCCFFCA9E82D28B7 /* Pods-InstagramFirestoreTutorial.debug.xcconfig */,
 				C5EE61845C7C84A294EE87B9 /* Pods-InstagramFirestoreTutorial.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +147,8 @@
 		355E53F225EA93C200CC3D64 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				359C1FD525F8DF4200340C68 /* ImageUploader.swift */,
+				359C1FD825F8DF6300340C68 /* AuthService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -315,6 +320,8 @@
 				355E53FA25EA97EC00CC3D64 /* FeedController.swift in Sources */,
 				355E53F725EA94E500CC3D64 /* MainTabController.swift in Sources */,
 				350AE78125EBDFDB005741C6 /* Extensions.swift in Sources */,
+				359C1FD625F8DF4200340C68 /* ImageUploader.swift in Sources */,
+				359C1FD925F8DF6300340C68 /* AuthService.swift in Sources */,
 				355E53DD25EA935600CC3D64 /* SceneDelegate.swift in Sources */,
 				359C1F9F25F21CC500340C68 /* RegistrationCOntroller.swift in Sources */,
 			);
