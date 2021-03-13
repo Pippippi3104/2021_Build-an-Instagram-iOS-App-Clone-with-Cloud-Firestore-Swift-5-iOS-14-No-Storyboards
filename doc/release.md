@@ -4,6 +4,7 @@
 - 02: Creating Feed user Interface Programatically
 - 03: User Authentication UI & ViewModels
 - 04: Setting Up Firebase and User Authentication
+- 05: User profile UI
 
 ## release
 

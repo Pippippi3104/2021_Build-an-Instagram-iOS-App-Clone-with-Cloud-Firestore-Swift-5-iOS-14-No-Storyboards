@@ -7,11 +7,19 @@
 
 import UIKit
 
-class ProfileController: UITabBarController {
+class ProfileController: UICollectionViewController {
+    
+    // MARK: - Properties
+    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .systemPurple
+    }
+    
+    // MARK: - Helpers
+    
+    func configureCollectionView() {
+        collectionView.backgroundColor = .white
     }
 }
