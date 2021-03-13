@@ -13,3 +13,5 @@
   - section02
 - v0.3.0
   - section03
+- v0.4.0
+  - section04
