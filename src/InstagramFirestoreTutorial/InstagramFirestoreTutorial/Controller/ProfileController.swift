@@ -65,8 +65,9 @@ extension ProfileController: UICollectionViewDelegateFlowLayout {
         return 1
     }
     
+    // cell 同士の間をうまく開けて並べる
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = (view.frame.width - 2) / 3
+        let width = (view.frame.width - 3) / 3
         return CGSize(width: width, height: width)
     }
     
