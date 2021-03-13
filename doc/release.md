@@ -5,6 +5,7 @@
 - 03: User Authentication UI & ViewModels
 - 04: Setting Up Firebase and User Authentication
 - 05: User profile UI
+- 06: Fetching and Displaying User Data from Firestore
 
 ## release
 
