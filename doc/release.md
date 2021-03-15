@@ -6,6 +6,7 @@
 - 04: Setting Up Firebase and User Authentication
 - 05: User profile UI
 - 06: Fetching and Displaying User Data from Firestore
+- 07: Following / Unfollowing Users
 
 ## release
 
