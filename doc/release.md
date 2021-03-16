@@ -7,6 +7,7 @@
 - 05: User profile UI
 - 06: Fetching and Displaying User Data from Firestore
 - 07: Following / Unfollowing Users
+- 08: Uploading Posts and Displaying in Feed
 
 ## release
 
