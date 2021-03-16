@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		350AE77E25EBDD14005741C6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AE77D25EBDD14005741C6 /* FeedCell.swift */; };
 		350AE78125EBDFDB005741C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AE78025EBDFDB005741C6 /* Extensions.swift */; };
+		355B262A26007AE1008E08EA /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B262926007AE1008E08EA /* UploadPostController.swift */; };
+		355B262D26008926008E08EA /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B262C26008926008E08EA /* InputTextView.swift */; };
 		355E53DB25EA935600CC3D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E53DA25EA935600CC3D64 /* AppDelegate.swift */; };
 		355E53DD25EA935600CC3D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E53DC25EA935600CC3D64 /* SceneDelegate.swift */; };
 		355E53DF25EA935600CC3D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E53DE25EA935600CC3D64 /* ViewController.swift */; };
@@ -43,6 +45,8 @@
 		215DA53581959BD936163828 /* Pods_InstagramFirestoreTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramFirestoreTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		350AE77D25EBDD14005741C6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		350AE78025EBDFDB005741C6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		355B262926007AE1008E08EA /* UploadPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostController.swift; sourceTree = "<group>"; };
+		355B262C26008926008E08EA /* InputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 		355E53D725EA935600CC3D64 /* InstagramFirestoreTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirestoreTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		355E53DA25EA935600CC3D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		355E53DC25EA935600CC3D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 				355E53FF25EA981300CC3D64 /* ImageSelectorController.swift */,
 				355E540225EA982900CC3D64 /* NotificationsController.swift */,
 				355E540525EA983B00CC3D64 /* ProfileController.swift */,
+				355B262926007AE1008E08EA /* UploadPostController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			children = (
 				350AE78025EBDFDB005741C6 /* Extensions.swift */,
 				359C1FED25FCAF9C00340C68 /* Constants.swift */,
+				355B262C26008926008E08EA /* InputTextView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 			files = (
 				359C1FA225F23C3400340C68 /* CustomTextField.swift in Sources */,
 				359C1FE425FC616B00340C68 /* ProfileHeader.swift in Sources */,
+				355B262A26007AE1008E08EA /* UploadPostController.swift in Sources */,
 				355E53DF25EA935600CC3D64 /* ViewController.swift in Sources */,
 				359C1F9B25F21CAE00340C68 /* LoginController.swift in Sources */,
 				350AE77E25EBDD14005741C6 /* FeedCell.swift in Sources */,
@@ -353,6 +360,7 @@
 				359C1FF125FCB14900340C68 /* User.swift in Sources */,
 				355E540625EA983B00CC3D64 /* ProfileController.swift in Sources */,
 				359C1FF525FCC1E700340C68 /* ProfileHeaderViewModel.swift in Sources */,
+				355B262D26008926008E08EA /* InputTextView.swift in Sources */,
 				359C1FEE25FCAF9C00340C68 /* Constants.swift in Sources */,
 				355E53FA25EA97EC00CC3D64 /* FeedController.swift in Sources */,
 				359C200025FDF18800340C68 /* UserCellViewModel.swift in Sources */,
