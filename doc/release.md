@@ -22,3 +22,5 @@
   - section05
 - v0.6.0
   - section06
+- v0.7.0
+  - section07
