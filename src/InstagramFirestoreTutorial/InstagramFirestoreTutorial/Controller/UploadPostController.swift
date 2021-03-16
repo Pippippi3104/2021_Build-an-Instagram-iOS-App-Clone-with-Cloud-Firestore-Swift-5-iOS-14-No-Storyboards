@@ -20,7 +20,17 @@ class UploadPostController: UIViewController {
     
     private let captionTextView: UITextView = {
         let tv = UITextView()
+        tv.backgroundColor = .white
+        tv.textColor = .black
         return tv
+    }()
+    
+    private let characterCountLabel: UILabel = {
+        let label = UILabel()
+        label.textColor = .lightGray
+        label.font = UIFont.systemFont(ofSize: 14)
+        label.text = "0/100"
+        return label
     }()
     
     // MARK: - Lifecycle
@@ -51,12 +61,14 @@ class UploadPostController: UIViewController {
         
         view.addSubview(photoImageView)
         photoImageView.setDimensions(height: 180, width: 180)
-        photoImageView.anchor(top: view.topAnchor)
+        photoImageView.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 8)
         photoImageView.centerX(inView: view)
         photoImageView.layer.cornerRadius = 10
         
         view.addSubview(captionTextView)
         captionTextView.anchor(top: photoImageView.bottomAnchor, left: view.leftAnchor, right: view.rightAnchor, paddingTop: 16, paddingLeft: 12, paddingRight: 12, height: 64)
+        
+        view.addSubview(characterCountLabel)
+        characterCountLabel.anchor(bottom: view.bottomAnchor, right: view.rightAnchor, paddingBottom: 12, paddingRight: 12)
     }
-    
 }
