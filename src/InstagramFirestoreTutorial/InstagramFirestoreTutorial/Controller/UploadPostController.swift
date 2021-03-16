@@ -27,6 +27,7 @@ class UploadPostController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureUI()
     }
     
     // MARK: - Actions
