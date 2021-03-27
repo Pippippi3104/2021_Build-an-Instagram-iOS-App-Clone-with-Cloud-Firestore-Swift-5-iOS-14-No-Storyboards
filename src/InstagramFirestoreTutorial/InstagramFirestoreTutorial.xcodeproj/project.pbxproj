@@ -39,6 +39,7 @@
 		359C1FFC25FDC1F700340C68 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FFB25FDC1F700340C68 /* UserCell.swift */; };
 		359C200025FDF18800340C68 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FFF25FDF18800340C68 /* UserCellViewModel.swift */; };
 		ADFC926D70B2EF400C89FDD4 /* Pods_InstagramFirestoreTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215DA53581959BD936163828 /* Pods_InstagramFirestoreTutorial.framework */; };
+		CF149341260ED26200301F2F /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF149340260ED26200301F2F /* PostService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		359C1FFF25FDF18800340C68 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 		5B1C8D95BCCFFCA9E82D28B7 /* Pods-InstagramFirestoreTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirestoreTutorial.debug.xcconfig"; path = "Target Support Files/Pods-InstagramFirestoreTutorial/Pods-InstagramFirestoreTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		C5EE61845C7C84A294EE87B9 /* Pods-InstagramFirestoreTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirestoreTutorial.release.xcconfig"; path = "Target Support Files/Pods-InstagramFirestoreTutorial/Pods-InstagramFirestoreTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		CF149340260ED26200301F2F /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				359C1FD525F8DF4200340C68 /* ImageUploader.swift */,
 				359C1FD825F8DF6300340C68 /* AuthService.swift */,
 				359C1FEA25FCAF0E00340C68 /* UserService.swift */,
+				CF149340260ED26200301F2F /* PostService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				350AE78125EBDFDB005741C6 /* Extensions.swift in Sources */,
 				359C1FD625F8DF4200340C68 /* ImageUploader.swift in Sources */,
 				359C1FD925F8DF6300340C68 /* AuthService.swift in Sources */,
+				CF149341260ED26200301F2F /* PostService.swift in Sources */,
 				359C1FEB25FCAF0E00340C68 /* UserService.swift in Sources */,
 				359C1FE125FC614E00340C68 /* ProfileCell.swift in Sources */,
 				355E53DD25EA935600CC3D64 /* SceneDelegate.swift in Sources */,
