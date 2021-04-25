@@ -8,6 +8,7 @@
 - 06: Fetching and Displaying User Data from Firestore
 - 07: Following / Unfollowing Users
 - 08: Uploading Posts and Displaying in Feed
+- 09: Post Comments
 
 ## release
 
@@ -25,3 +26,5 @@
   - section06
 - v0.7.0
   - section07
+- v0.8.0
+  - section08
