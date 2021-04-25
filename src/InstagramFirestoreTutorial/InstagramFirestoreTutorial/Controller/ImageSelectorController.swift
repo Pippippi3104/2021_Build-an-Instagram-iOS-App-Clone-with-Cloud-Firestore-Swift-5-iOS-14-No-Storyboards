@@ -9,9 +9,13 @@ import UIKit
 
 class ImageSelectorController: UITabBarController {
     
+    // MARK: - Properties
+    
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .systemRed
+        view.backgroundColor = .white
     }
 }
