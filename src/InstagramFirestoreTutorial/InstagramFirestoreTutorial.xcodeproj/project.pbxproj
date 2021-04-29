@@ -42,6 +42,7 @@
 		CF149341260ED26200301F2F /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF149340260ED26200301F2F /* PostService.swift */; };
 		CF6DDE4D26362A51001D591B /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4C26362A51001D591B /* CommentController.swift */; };
 		CF6DDE5026362EA7001D591B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4F26362EA7001D591B /* CommentCell.swift */; };
+		CF6EFB93263785CA0005B831 /* CommentInputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */; };
 		CFB70322262E3C810083678D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB70321262E3C810083678D /* Post.swift */; };
 		CFB70326262F8DC20083678D /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB70325262F8DC20083678D /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -86,6 +87,7 @@
 		CF149340260ED26200301F2F /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		CF6DDE4C26362A51001D591B /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
 		CF6DDE4F26362EA7001D591B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccesoryView.swift; sourceTree = "<group>"; };
 		CFB70321262E3C810083678D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CFB70325262F8DC20083678D /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +169,7 @@
 				359C1FA125F23C3400340C68 /* CustomTextField.swift */,
 				359C1FFB25FDC1F700340C68 /* UserCell.swift */,
 				CF6DDE4F26362EA7001D591B /* CommentCell.swift */,
+				CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				359C1FD625F8DF4200340C68 /* ImageUploader.swift in Sources */,
 				CFB70322262E3C810083678D /* Post.swift in Sources */,
 				359C1FD925F8DF6300340C68 /* AuthService.swift in Sources */,
+				CF6EFB93263785CA0005B831 /* CommentInputAccesoryView.swift in Sources */,
 				CF149341260ED26200301F2F /* PostService.swift in Sources */,
 				359C1FEB25FCAF0E00340C68 /* UserService.swift in Sources */,
 				359C1FE125FC614E00340C68 /* ProfileCell.swift in Sources */,
