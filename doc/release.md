@@ -9,6 +9,7 @@
 - 07: Following / Unfollowing Users
 - 08: Uploading Posts and Displaying in Feed
 - 09: Post Comments
+- 10: Post Likes
 
 ## release
 
@@ -28,3 +29,5 @@
   - section07
 - v0.8.0
   - section08
+- v0.9.0
+  - section09
