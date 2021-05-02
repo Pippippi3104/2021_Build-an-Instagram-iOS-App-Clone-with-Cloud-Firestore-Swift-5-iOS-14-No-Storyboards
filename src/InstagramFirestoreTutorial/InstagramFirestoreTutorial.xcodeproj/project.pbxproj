@@ -44,6 +44,7 @@
 		CF6DDE5026362EA7001D591B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4F26362EA7001D591B /* CommentCell.swift */; };
 		CF6EFB93263785CA0005B831 /* CommentInputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */; };
 		CFB0A9AD263CE53300E03594 /* CommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0A9AC263CE53300E03594 /* CommentService.swift */; };
+		CFB0A9AF263E7B8E00E03594 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0A9AE263E7B8E00E03594 /* Comment.swift */; };
 		CFB70322262E3C810083678D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB70321262E3C810083678D /* Post.swift */; };
 		CFB70326262F8DC20083678D /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB70325262F8DC20083678D /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -90,6 +91,7 @@
 		CF6DDE4F26362EA7001D591B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccesoryView.swift; sourceTree = "<group>"; };
 		CFB0A9AC263CE53300E03594 /* CommentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentService.swift; sourceTree = "<group>"; };
+		CFB0A9AE263E7B8E00E03594 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		CFB70321262E3C810083678D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CFB70325262F8DC20083678D /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +161,7 @@
 			children = (
 				359C1FF025FCB14900340C68 /* User.swift */,
 				CFB70321262E3C810083678D /* Post.swift */,
+				CFB0A9AE263E7B8E00E03594 /* Comment.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				350AE77E25EBDD14005741C6 /* FeedCell.swift in Sources */,
 				355E540025EA981300CC3D64 /* ImageSelectorController.swift in Sources */,
 				CFB0A9AD263CE53300E03594 /* CommentService.swift in Sources */,
+				CFB0A9AF263E7B8E00E03594 /* Comment.swift in Sources */,
 				355E540325EA982A00CC3D64 /* NotificationsController.swift in Sources */,
 				359C1FA925F4F17300340C68 /* AuthenticationViewModel.swift in Sources */,
 				359C1FFC25FDC1F700340C68 /* UserCell.swift in Sources */,
