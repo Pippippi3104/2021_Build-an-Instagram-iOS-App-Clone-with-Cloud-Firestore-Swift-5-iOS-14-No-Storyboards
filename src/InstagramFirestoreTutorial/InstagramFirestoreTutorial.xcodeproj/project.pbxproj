@@ -45,6 +45,7 @@
 		CF6EFB93263785CA0005B831 /* CommentInputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */; };
 		CFB0A9AD263CE53300E03594 /* CommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0A9AC263CE53300E03594 /* CommentService.swift */; };
 		CFB0A9AF263E7B8E00E03594 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0A9AE263E7B8E00E03594 /* Comment.swift */; };
+		CFB0A9B1263E803A00E03594 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0A9B0263E803A00E03594 /* CommentViewModel.swift */; };
 		CFB70322262E3C810083678D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB70321262E3C810083678D /* Post.swift */; };
 		CFB70326262F8DC20083678D /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB70325262F8DC20083678D /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,7 @@
 		CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccesoryView.swift; sourceTree = "<group>"; };
 		CFB0A9AC263CE53300E03594 /* CommentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentService.swift; sourceTree = "<group>"; };
 		CFB0A9AE263E7B8E00E03594 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		CFB0A9B0263E803A00E03594 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
 		CFB70321262E3C810083678D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CFB70325262F8DC20083678D /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +188,7 @@
 				359C1FF425FCC1E700340C68 /* ProfileHeaderViewModel.swift */,
 				359C1FFF25FDF18800340C68 /* UserCellViewModel.swift */,
 				CFB70325262F8DC20083678D /* PostViewModel.swift */,
+				CFB0A9B0263E803A00E03594 /* CommentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB0A9B1263E803A00E03594 /* CommentViewModel.swift in Sources */,
 				CFB70326262F8DC20083678D /* PostViewModel.swift in Sources */,
 				359C1FA225F23C3400340C68 /* CustomTextField.swift in Sources */,
 				359C1FE425FC616B00340C68 /* ProfileHeader.swift in Sources */,
