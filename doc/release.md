@@ -10,6 +10,7 @@
 - 08: Uploading Posts and Displaying in Feed
 - 09: Post Comments
 - 10: Post Likes
+- 11: Notifications
 
 ## release
 
@@ -31,3 +32,5 @@
   - section08
 - v0.9.0
   - section09
+- v0.10.0
+  - section10
