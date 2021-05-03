@@ -40,6 +40,7 @@
 		359C200025FDF18800340C68 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C1FFF25FDF18800340C68 /* UserCellViewModel.swift */; };
 		ADFC926D70B2EF400C89FDD4 /* Pods_InstagramFirestoreTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215DA53581959BD936163828 /* Pods_InstagramFirestoreTutorial.framework */; };
 		CF149341260ED26200301F2F /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF149340260ED26200301F2F /* PostService.swift */; };
+		CF39EE0F2640671D00FCB674 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE0E2640671D00FCB674 /* NotificationCell.swift */; };
 		CF6DDE4D26362A51001D591B /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4C26362A51001D591B /* CommentController.swift */; };
 		CF6DDE5026362EA7001D591B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4F26362EA7001D591B /* CommentCell.swift */; };
 		CF6EFB93263785CA0005B831 /* CommentInputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */; };
@@ -88,6 +89,7 @@
 		5B1C8D95BCCFFCA9E82D28B7 /* Pods-InstagramFirestoreTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirestoreTutorial.debug.xcconfig"; path = "Target Support Files/Pods-InstagramFirestoreTutorial/Pods-InstagramFirestoreTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		C5EE61845C7C84A294EE87B9 /* Pods-InstagramFirestoreTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirestoreTutorial.release.xcconfig"; path = "Target Support Files/Pods-InstagramFirestoreTutorial/Pods-InstagramFirestoreTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		CF149340260ED26200301F2F /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		CF39EE0E2640671D00FCB674 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		CF6DDE4C26362A51001D591B /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
 		CF6DDE4F26362EA7001D591B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccesoryView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				359C1FFB25FDC1F700340C68 /* UserCell.swift */,
 				CF6DDE4F26362EA7001D591B /* CommentCell.swift */,
 				CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */,
+				CF39EE0E2640671D00FCB674 /* NotificationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				359C1FEB25FCAF0E00340C68 /* UserService.swift in Sources */,
 				359C1FE125FC614E00340C68 /* ProfileCell.swift in Sources */,
 				355E53DD25EA935600CC3D64 /* SceneDelegate.swift in Sources */,
+				CF39EE0F2640671D00FCB674 /* NotificationCell.swift in Sources */,
 				359C1F9F25F21CC500340C68 /* RegistrationCOntroller.swift in Sources */,
 				CF6DDE5026362EA7001D591B /* CommentCell.swift in Sources */,
 			);
