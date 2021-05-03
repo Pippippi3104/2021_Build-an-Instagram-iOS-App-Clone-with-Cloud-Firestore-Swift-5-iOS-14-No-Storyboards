@@ -125,8 +125,15 @@ extension FeedController: FeedCellDelegate {
         
         if post.didLike {
             print("DEBUG: Unlike post here..")
+            PostService.unlikePost(post: post) { _ in
+                print("DEBUG: Unlike post did complete..")
+                cell.likeButton.setImage(#imageLiteral(resourceName: "like_unselected"), for: .normal)
+                cell.likeButton.tintColor = .black
+            }
         } else {
+            print("DEBUG: Like post here..")
             PostService.likePost(post: post) { error in
+                print("DEBUG: Like post did complete..")
                 cell.likeButton.setImage(#imageLiteral(resourceName: "like_selected"), for: .normal)
                 cell.likeButton.tintColor = .red
             }
