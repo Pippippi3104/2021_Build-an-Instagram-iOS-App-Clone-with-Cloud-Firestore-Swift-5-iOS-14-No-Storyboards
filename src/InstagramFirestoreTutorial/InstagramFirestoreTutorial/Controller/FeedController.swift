@@ -53,8 +53,8 @@ class FeedController: UICollectionViewController {
         
         PostService.fetchPosts{ posts in
             self.posts = posts
-            self.collectionView.refreshControl?.endRefreshing()
             self.checkIfUserLikedPosts()
+            self.collectionView.refreshControl?.endRefreshing()
         }
     }
     
