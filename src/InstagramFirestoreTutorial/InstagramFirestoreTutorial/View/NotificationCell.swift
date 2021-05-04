@@ -27,8 +27,8 @@ class NotificationCell: UITableViewCell {
     private let infoLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 14)
-        label.text = "venom"
         label.textColor = .black
+        label.numberOfLines = 0
         return label
     }()
     
@@ -103,5 +103,8 @@ class NotificationCell: UITableViewCell {
         guard let viewModel = viewModel else { return }
         
         profileImageView.sd_setImage(with: viewModel.profileImageUrl)
+        postImageView.sd_setImage(with: viewModel.postImageUrl)
+        
+        infoLabel.attributedText = viewModel.notificationMessage
     }
 }

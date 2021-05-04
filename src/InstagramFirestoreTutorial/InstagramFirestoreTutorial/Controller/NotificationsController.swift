@@ -57,6 +57,7 @@ extension NotificationsController {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier,
                                                  for: indexPath) as! NotificationCell
         cell.backgroundColor = .white
+        cell.viewModel = NotificationViewModel(notification: notifications[indexPath.row])
         return cell
     }
 }
