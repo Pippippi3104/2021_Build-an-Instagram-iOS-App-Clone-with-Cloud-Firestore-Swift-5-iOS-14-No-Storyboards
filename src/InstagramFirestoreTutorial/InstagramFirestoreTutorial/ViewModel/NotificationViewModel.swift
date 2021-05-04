@@ -31,4 +31,6 @@ struct NotificationViewModel {
                                                               .foregroundColor: UIColor.lightGray]))
         return attributedText
     }
+    
+    var shouldHidePostImage: Bool { return self.notification.type == .follow }
 }
