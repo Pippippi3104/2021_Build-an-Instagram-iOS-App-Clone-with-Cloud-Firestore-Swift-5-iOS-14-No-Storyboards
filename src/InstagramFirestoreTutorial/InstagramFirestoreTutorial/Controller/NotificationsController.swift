@@ -30,7 +30,19 @@ class NotificationsController: UITableViewController {
     func fetchNotifications() {
         NotificationService.fetchNotifications { notifications in
             self.notifications = notifications
-            print("DEBUG: Notifications \(notifications)")
+            self.checkIfUserIsFollowed()
+        }
+    }
+    
+    func checkIfUserIsFollowed() {
+        notifications.forEach { notification in
+            guard notification.type == .follow else { return }
+            
+            UserService.checkIfUserIsFollowed(uid: notification.uid) { isFollowed in
+                if let index = self.notifications.firstIndex(where: { $0.id == notification.id }) {
+                    self.notifications[index].userIsFollowed = isFollowed
+                }
+            }
         }
     }
     
@@ -46,6 +58,8 @@ class NotificationsController: UITableViewController {
     }
 }
 
+// MARK: - UITableViewDataSource
+
 extension NotificationsController {
     override func tableView(_ tableView: UITableView,
                             numberOfRowsInSection section: Int) -> Int {
@@ -58,6 +72,30 @@ extension NotificationsController {
                                                  for: indexPath) as! NotificationCell
         cell.backgroundColor = .white
         cell.viewModel = NotificationViewModel(notification: notifications[indexPath.row])
+        cell.delegate = self
         return cell
+    }
+}
+
+// MARK: - UITableViewDelegate
+extension NotificationsController {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+}
+
+// MARK: - NotificationCellDelegate
+
+extension NotificationsController: NotificationCellDelegate {
+    func cell(_ cell: NotificationCell, wantsToFollow uid: String) {
+        print("DEBUG: Follow user here..")
+    }
+    
+    func cell(_ cell: NotificationCell, wantsToUnfollow uid: String) {
+        print("DEBUG: Unfollow user here..")
+    }
+    
+    func cell(_ cell: NotificationCell, wantsToViewPost postId: String) {
+        print("DEBUG: Show post here..")
     }
 }
