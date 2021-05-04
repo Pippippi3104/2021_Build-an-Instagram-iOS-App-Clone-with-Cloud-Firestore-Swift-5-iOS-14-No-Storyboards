@@ -11,6 +11,7 @@
 - 09: Post Comments
 - 10: Post Likes
 - 11: Notifications
+- 12: User Feed with Posts From Followed Users
 
 ## release
 
@@ -34,3 +35,5 @@
   - section09
 - v0.10.0
   - section10
+- v0.11.0
+  - section11
