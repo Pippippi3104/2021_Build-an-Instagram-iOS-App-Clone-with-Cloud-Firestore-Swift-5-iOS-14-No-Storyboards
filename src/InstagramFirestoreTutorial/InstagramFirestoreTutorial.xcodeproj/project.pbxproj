@@ -43,6 +43,7 @@
 		CF39EE0F2640671D00FCB674 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE0E2640671D00FCB674 /* NotificationCell.swift */; };
 		CF39EE112640D23D00FCB674 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE102640D23D00FCB674 /* Notification.swift */; };
 		CF39EE132640D51A00FCB674 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE122640D51A00FCB674 /* NotificationService.swift */; };
+		CF39EE152640F01300FCB674 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE142640F01300FCB674 /* NotificationViewModel.swift */; };
 		CF6DDE4D26362A51001D591B /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4C26362A51001D591B /* CommentController.swift */; };
 		CF6DDE5026362EA7001D591B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4F26362EA7001D591B /* CommentCell.swift */; };
 		CF6EFB93263785CA0005B831 /* CommentInputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */; };
@@ -94,6 +95,7 @@
 		CF39EE0E2640671D00FCB674 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		CF39EE102640D23D00FCB674 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		CF39EE122640D51A00FCB674 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CF39EE142640F01300FCB674 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		CF6DDE4C26362A51001D591B /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
 		CF6DDE4F26362EA7001D591B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccesoryView.swift; sourceTree = "<group>"; };
@@ -146,7 +148,7 @@
 		355E53D925EA935600CC3D64 /* InstagramFirestoreTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				355E53EF25EA93A200CC3D64 /* Modal */,
+				355E53EF25EA93A200CC3D64 /* Model */,
 				355E53F025EA93AE00CC3D64 /* View */,
 				355E53F125EA93B700CC3D64 /* ViewModel */,
 				355E53F325EA93C900CC3D64 /* Controller */,
@@ -164,7 +166,7 @@
 			path = InstagramFirestoreTutorial;
 			sourceTree = "<group>";
 		};
-		355E53EF25EA93A200CC3D64 /* Modal */ = {
+		355E53EF25EA93A200CC3D64 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				359C1FF025FCB14900340C68 /* User.swift */,
@@ -172,7 +174,7 @@
 				CFB0A9AE263E7B8E00E03594 /* Comment.swift */,
 				CF39EE102640D23D00FCB674 /* Notification.swift */,
 			);
-			path = Modal;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		355E53F025EA93AE00CC3D64 /* View */ = {
@@ -197,6 +199,7 @@
 				359C1FFF25FDF18800340C68 /* UserCellViewModel.swift */,
 				CFB70325262F8DC20083678D /* PostViewModel.swift */,
 				CFB0A9B0263E803A00E03594 /* CommentViewModel.swift */,
+				CF39EE142640F01300FCB674 /* NotificationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFB0A9B1263E803A00E03594 /* CommentViewModel.swift in Sources */,
+				CF39EE152640F01300FCB674 /* NotificationViewModel.swift in Sources */,
 				CFB70326262F8DC20083678D /* PostViewModel.swift in Sources */,
 				359C1FA225F23C3400340C68 /* CustomTextField.swift in Sources */,
 				359C1FE425FC616B00340C68 /* ProfileHeader.swift in Sources */,
