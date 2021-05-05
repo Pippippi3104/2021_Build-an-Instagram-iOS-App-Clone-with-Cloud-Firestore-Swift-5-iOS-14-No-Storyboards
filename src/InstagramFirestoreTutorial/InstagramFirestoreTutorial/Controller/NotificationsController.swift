@@ -118,7 +118,7 @@ extension NotificationsController: NotificationCellDelegate {
     
     func cell(_ cell: NotificationCell, wantsToUnfollow uid: String) {
         showLoader(true)
-
+        
         UserService.unfollow(uid: uid) { _ in
             self.showLoader(false)
             cell.viewModel?.notification.userIsFollowed.toggle()
