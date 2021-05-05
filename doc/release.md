@@ -40,3 +40,5 @@
   - section11
 - v0.12.0
   - section12
+- v0.13.0
+  - section13
