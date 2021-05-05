@@ -12,6 +12,7 @@
 - 10: Post Likes
 - 11: Notifications
 - 12: User Feed with Posts From Followed Users
+- 13: Bug fixed and Finishing Touches
 
 ## release
 
@@ -37,3 +38,5 @@
   - section10
 - v0.11.0
   - section11
+- v0.12.0
+  - section12
