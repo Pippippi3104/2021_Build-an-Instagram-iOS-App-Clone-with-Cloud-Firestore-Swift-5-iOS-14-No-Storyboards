@@ -44,6 +44,7 @@
 		CF39EE112640D23D00FCB674 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE102640D23D00FCB674 /* Notification.swift */; };
 		CF39EE132640D51A00FCB674 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE122640D51A00FCB674 /* NotificationService.swift */; };
 		CF39EE152640F01300FCB674 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE142640F01300FCB674 /* NotificationViewModel.swift */; };
+		CF39EE17264237F800FCB674 /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF39EE16264237F800FCB674 /* ResetPasswordController.swift */; };
 		CF6DDE4D26362A51001D591B /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4C26362A51001D591B /* CommentController.swift */; };
 		CF6DDE5026362EA7001D591B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6DDE4F26362EA7001D591B /* CommentCell.swift */; };
 		CF6EFB93263785CA0005B831 /* CommentInputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */; };
@@ -96,6 +97,7 @@
 		CF39EE102640D23D00FCB674 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		CF39EE122640D51A00FCB674 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		CF39EE142640F01300FCB674 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		CF39EE16264237F800FCB674 /* ResetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordController.swift; sourceTree = "<group>"; };
 		CF6DDE4C26362A51001D591B /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
 		CF6DDE4F26362EA7001D591B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		CF6EFB92263785CA0005B831 /* CommentInputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputAccesoryView.swift; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 			children = (
 				359C1F9A25F21CAE00340C68 /* LoginController.swift */,
 				359C1F9E25F21CC500340C68 /* RegistrationCOntroller.swift */,
+				CF39EE16264237F800FCB674 /* ResetPasswordController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				355E540625EA983B00CC3D64 /* ProfileController.swift in Sources */,
 				359C1FF525FCC1E700340C68 /* ProfileHeaderViewModel.swift in Sources */,
 				355B262D26008926008E08EA /* InputTextView.swift in Sources */,
+				CF39EE17264237F800FCB674 /* ResetPasswordController.swift in Sources */,
 				359C1FEE25FCAF9C00340C68 /* Constants.swift in Sources */,
 				355E53FA25EA97EC00CC3D64 /* FeedController.swift in Sources */,
 				359C200025FDF18800340C68 /* UserCellViewModel.swift in Sources */,
